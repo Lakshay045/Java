@@ -24,8 +24,8 @@ public class Loan {
 
         if (loan_default.equalsIgnoreCase("no")) {
 
-            if ((salary >= 50000 && credit_score >= 500) || 
-                (salary >= 60000 && experience >= 5)) {
+            if ((salary > 50000 && credit_score > 500) || 
+                (salary > 60000 && experience >= 5)) {
 
                 System.out.println("You are Eligible For Loan.");
             } 
