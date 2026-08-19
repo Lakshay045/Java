@@ -1,27 +1,88 @@
-# ☕ Java Practice Repository
+# ☕ Java + DSA Journey
 
-This repository contains my Java learning journey, including college programs and personal practice.
+### Building Strong Fundamentals. Solving Problems. Preparing for Placements.
 
----
+Welcome to my **Java + DSA learning repository**.
 
-## 📁 Folder Structure
-
-- `Java/` → Personal Java practice (DSA, concepts, experiments)
-- `Java College/` → College assignments and lab programs
+This repository contains my journey of learning **Java programming, problem-solving, Data Structures & Algorithms**, and gradually preparing myself for technical interviews and placements.
 
 ---
 
-## 🚀 What I'm Learning
+## 🚀 What This Repository Contains
 
-- Java fundamentals
-- Object-Oriented Programming (OOP)
-- Problem solving using Java
-- Data Structures & Algorithms (in progress)
+### ☕ Core Java
+
+Learning Java from fundamentals and building a strong programming base.
+
+- Java Basics
+- Variables & Data Types
+- Input / Output
+- Type Casting
+- Operators
+- Conditional Statements
+- Loops
+- Arrays
+- Strings
+- Methods
+- Object-Oriented Programming
 
 ---
 
-## ⚙️ Setup & Run
+### 🧠 Data Structures & Algorithms
 
-### Compile
-```bash
-javac FileName.java
+After building the programming fundamentals, the focus moves towards DSA and problem-solving.
+
+- Arrays
+- Strings
+- Searching
+- Sorting
+- Recursion
+- Linked Lists
+- Stacks
+- Queues
+- Hashing
+- Trees
+- Heaps
+- Graphs
+- Greedy Algorithms
+- Dynamic Programming
+
+---
+
+## 📂 Repository Structure
+
+```text
+Java/
+│
+├── 01_Basics/
+│
+├── 02_Input/
+│
+├── 03_TypeCasting/
+│
+├── 04_Operators/
+│
+├── 05_ConditionalStatements/
+│
+├── 06_Loops/
+│   ├── 01_ForLoop/
+│   ├── 02_WhileLoop/
+│   └── 03_DoWhileLoop/
+│
+├── 07_Arrays/
+│
+├── 08_Strings/
+│
+├── 09_Methods/
+│
+├── 10_OOP/
+│
+└── 11_DSA/
+    ├── Arrays/
+    ├── Searching/
+    ├── Sorting/
+    ├── LinkedList/
+    ├── Stack/
+    ├── Queue/
+    ├── Trees/
+    └── Graphs/
