@@ -53,5 +53,7 @@ public class MenuProgram {
 
             
         }
+
+        input.close();
     }
 }
