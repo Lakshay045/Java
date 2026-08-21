@@ -22,6 +22,8 @@ public class If_Else {
 
         }
 
+        sc.close();
+
 
     }
     

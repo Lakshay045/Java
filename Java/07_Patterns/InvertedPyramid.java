@@ -15,7 +15,7 @@ public class InvertedPyramid {
             }
 
             // Stars
-            for (int col = 1; col <= 2*n - row -(row- 1); col++) {
+            for (int col = 1; col <= 2*n - row -(row- 1); col++) {    //2n - row - star
                 System.out.print("*");
             }
 
@@ -23,3 +23,5 @@ public class InvertedPyramid {
         }
     }
 }
+
+
