@@ -1,0 +1,1 @@
+// WAP to store a string values and convert them into integer objects , also calculate and average , and determine whether the student has passed or not.
