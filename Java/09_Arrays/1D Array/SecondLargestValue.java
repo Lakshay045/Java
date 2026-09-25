@@ -2,7 +2,7 @@ public class SecondLargestValue {
 
     public static void main(String args[]) {
 
-        int arr[] = {23, 45, 26, 13, 5};
+        int arr[] = {23, 45, 26, 22, 5};
 
         // First we find Largest one
 
@@ -18,8 +18,14 @@ public class SecondLargestValue {
 
         // Now We find Second Largest element
 
-        int slargest = arr[0];
 
+
+        int slargest = Integer.MIN_VALUE;          
+        
+        // Integer.MIN_VALUE is used because if secondLargest = arr[0] = 5,
+        // then 3 can never become secondLargest.
+        // MIN_VALUE gives us a value smaller than every int element.
+        
         for (int i = 0; i < arr.length; i++) {
 
             if (arr[i] > slargest && arr[i] != largest) {
